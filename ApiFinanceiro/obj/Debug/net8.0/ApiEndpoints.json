@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.PrincipalController",
+    "Method": "Get",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "FindAll",
+    "RelativePath": "despesas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "Create",
+    "RelativePath": "despesas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaDespesa",
+        "Type": "ApiFinanceiro.Dtos.DespesaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "FindById",
+    "RelativePath": "despesas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "Update",
+    "RelativePath": "despesas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "despesaDto",
+        "Type": "ApiFinanceiro.Dtos.DespesaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFinanceiro.Controllers.DespesaController",
+    "Method": "Remove",
+    "RelativePath": "despesas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "despesaDto",
+        "Type": "ApiFinanceiro.Dtos.DespesaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
